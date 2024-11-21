@@ -9,9 +9,9 @@ env:
   ECR_REPOSITORY: myecr_repo           # set this to your Amazon ECR repository name
   ECS_SERVICE: myecs_service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: myecs_cluster                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: myecs_taskdef # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: myecs_taskdef1# set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: myecs_con           # set this to the name of the container in the
+  CONTAINER_NAME: myecs_con1           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 permissions:
